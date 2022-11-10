@@ -1,7 +1,12 @@
 import "./App.css";
+import SelectPage from "./pages/SelectPage";
 
 function App() {
-  return <div className="App">Hello </div>;
+  return (
+    <div className="App">
+      <SelectPage />
+    </div>
+  );
 }
 
 export default App;
